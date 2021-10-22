@@ -1,13 +1,13 @@
 {
     "website" : {
-      "domain": "https://superm2.tk"
+      "domain": "https://djnaruma.tk/"
     },
     "config": {
         "http": {
           "port": 80
         },
-        "callback": "https://superm2.tk/callback",
-        "clientID": "883691211020443649",
+        "callback": "https://djnaruma.tk/callback",
+        "clientID": "884443438853009448",
         "secret": ""
     }
   }
