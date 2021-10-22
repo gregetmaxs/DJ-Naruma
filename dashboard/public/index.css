@@ -30,14 +30,14 @@ body {
     color: white;
 }
 .nav-item a:hover{
-    color: red;
+    color: blue;
 }
 .nav-item b{
     text-decoration: none;
     color: #00ff0d!important;
 }
 .nav-item b:hover{
-    color: red!important;
+    color: blue!important;
 }
 .nav-item button {
     border-radius: 10px;
