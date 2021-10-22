@@ -46,7 +46,7 @@
                               aria-expanded="<%= i==0 ? 'true' : 'false' %>"
                               aria-controls="<%= cmd.name %>"
                             >
-                              s?<%= cmd.name %>
+                              -<%= cmd.name %>
                             </button>
                           </h2>
                           <div id="c_<%= cmd.name %>" 
@@ -56,7 +56,7 @@
                             <div class="accordion-body">
                             <code>Description : </code><%= cmd.description %> <br>
                             <code>Aliases : </code><% cmd.aliases && cmd.aliases.length > 0 ? cmd.aliases.forEach(a => { %>
-                            <small class="text-muted">[s?<%= a %>]</small>
+                            <small class="text-muted">[-<%= a %>]</small>
                             <% }) : "NO" %><br>
                             <code>Usage : </code><small><kbd><%= cmd.usage %></kbd></small><br>
                             </div>
