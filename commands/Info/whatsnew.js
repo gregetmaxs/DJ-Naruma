@@ -23,9 +23,8 @@ module.exports = {
         embeds: [
           new MessageEmbed()
           .setColor(ee.color)
-          .setTitle(`New Updated 25 Sept 2021`)
-          .setDescription(`:white_check_mark: | Fixed Not Showing Button`)
-          .setImage(`https://media.discordapp.net/attachments/776782742058696724/888256031891808328/PicsArt_09-17-09.52.13.gif`)
+          .setTitle(`New Updated 22 Oct 2021`)
+          .setDescription(`:white_check_mark: | Leave when finish ( False )`)
         ]
       });
     } catch (e) {
